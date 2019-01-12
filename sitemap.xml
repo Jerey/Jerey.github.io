@@ -43,7 +43,15 @@
   </url>
   
   <url>
-    <loc>https://jerey.at/about/</loc>
+    <loc>https://jerey.at/about.ja/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jerey.at/contact.ja/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jerey.at/projects.ja/</loc>
   </url>
   
   <url>
@@ -59,10 +67,6 @@
   <url>
     <loc>https://jerey.at/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jerey.at/contact/</loc>
   </url>
   
   <url>
@@ -109,10 +113,6 @@
     <loc>https://jerey.at/posts/</loc>
     <lastmod>2018-08-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jerey.at/projects/</loc>
   </url>
   
   <url>
