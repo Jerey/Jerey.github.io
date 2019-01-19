@@ -11,7 +11,9 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Projects"/>
-<meta name="twitter:description" content="Python Picture-to-Text I have"/>
+<meta name="twitter:description" content="Python Picture-to-Text A python tool used to extract text from images.
+Problem I enjoy the thrive to the paperless world, as I find it much easier organizing digital documents. But since many documents are still required as a hardcopy, one is still forced to archive those.
+Solution In order to reduce the amount of time spent organizing those documents, I bought a numbering stamp. This stamp automatically increases the number with each stamping."/>
 
 
     <base href="https://jerey.at/projects/">
@@ -94,7 +96,35 @@
 
 <h1 id="python-picture-to-text">Python Picture-to-Text</h1>
 
-<p>I have</p>
+<p>A python tool used to extract text from images.</p>
+
+<h5 id="problem">Problem</h5>
+
+<p>I enjoy the thrive to the paperless world, as I find it much easier organizing digital documents.
+But since many documents are still required as a hardcopy, one is still forced to archive those.</p>
+
+<h5 id="solution">Solution</h5>
+
+<p>In order to reduce the amount of time spent organizing those documents, I bought a numbering stamp. This stamp automatically increases the number with each stamping. It is put on each document. Then I take a picture of all documents.
+After that, the pictures are organized in folders by the name of the number on the document.
+Then a python script is started with the path to the images. This script takes one to many pictures per document, tries to align them in a way that the text is &ldquo;as horizontal as possible&rdquo;. This is done, since one easily is off by a few degrees when taking pictures with a camera or a phone.
+Then the slightly rotated pictures are stored to a pdf and used to extract text from them. This text then is stored to txt-files.
+The hardcopy documents are now simply archived in order of the number of the stamp.
+Whenever I now need a certain document, I can simply search for it on the computer and it will tell me, which number the document has.</p>
+
+<h5 id="drawback">Drawback</h5>
+
+<p>The image must have a good resolution and the text must be well readable, otherwise the output will not be all that great. In that case, it is possible that searching fails. But it is possible to add descriptive names to the number of the folder name through which manual searching can be improved.</p>
+
+<h5 id="used-technologies">Used technologies</h5>
+
+<ul>
+<li>Python 3</li>
+<li>PyOcr</li>
+<li>Img2pdf</li>
+<li>Opencv_python</li>
+<li>Tesseract</li>
+</ul>
 
   </article>
 </section>
@@ -115,8 +145,6 @@
     <script src="https://jerey.at/js/bundleMoment.bfd4d9c27344b00d1c191bd27a80221ed29e53b05ce12a3f4beed780b1e3026d.js" integrity="sha256-v9TZwnNEsA0cGRvSeoAiHtKeU7Bc4So/S&#43;7XgLHjAm0="></script>
   
   <section class="container">
-    
-      <p>Page under construction.</p>
     
     
     

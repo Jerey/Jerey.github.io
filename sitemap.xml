@@ -57,13 +57,13 @@
   </url>
   
   <url>
-    <loc>https://jerey.at/categories/development/</loc>
+    <loc>https://jerey.at/tags/development/</loc>
     <lastmod>2019-01-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jerey.at/tags/development/</loc>
+    <loc>https://jerey.at/categories/development/</loc>
     <lastmod>2019-01-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -75,13 +75,13 @@
   </url>
   
   <url>
-    <loc>https://jerey.at/categories/golang/</loc>
+    <loc>https://jerey.at/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jerey.at/tags/golang/</loc>
+    <loc>https://jerey.at/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
