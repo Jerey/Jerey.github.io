@@ -2,66 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anton A. Jerey</title>
-    <link>https://jerey.at/</link>
+    <link>http://www.example.com/</link>
     <description>Recent content on Anton A. Jerey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jerey.at/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>CoderPortfolioの特徴</title>
-      <link>https://jerey.at/posts/featuresofcoderportfolio.ja/</link>
-      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      <title>Hugo coder wiki</title>
+      <link>http://www.example.com/posts/hugo-coder-wiki/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jerey.at/posts/featuresofcoderportfolio.ja/</guid>
-      <description>変更点 ShortCode &amp;ldquo;private content&amp;rdquo;を追加しました 綺麗なサイトを崩さずに、あなたの個人的なコンテンツ（趣味や感情）を簡単に伝えることができます。
-実際の動きについては、&amp;rdquo;テーマデモ&amp;rdquo;をご覧ください。
-リンクに赤い下線のアニメーションを追加しました サイトがよりカラフルに美しくなりました。
-SNSシェアのボタンを追加しました あなたの記事がより影響力を持つようになりました。
-コードのハイライトを変更しました 日本のサービス Qiita のハイライトを参照しました。
-とても優しく美しいハイライトです。
-ヘッダーに影を追加しました より境界線がはっきりしました。
-ShortCode &amp;ldquo;portfolio&amp;rdquo;を追加しました あなたの作品を綺麗に表示できるようになりました。 実際の動きについては、&amp;rdquo;テーマデモ&amp;rdquo;をご覧ください。</description>
+      <guid>http://www.example.com/posts/hugo-coder-wiki/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Features Of CoderPortfolio</title>
-      <link>https://jerey.at/posts/featuresofcoderportfolio/</link>
-      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      <title>Dummy</title>
+      <link>http://www.example.com/posts/dummy.pl/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jerey.at/posts/featuresofcoderportfolio/</guid>
-      <description>Change Point &amp;ldquo;private content&amp;rdquo; short code added. It is now possible to communicate your personal hobby and your own content.
-You can use it easily. Please see &amp;ldquo;theme-demo&amp;rdquo; for details and demo.
-An animation of red underline was added to Anchor. The site became a little fun and colorful.
-The button of the SNS share was added. It became to have an influence when writing articles more.
-Changed the color scheme of code highlight.</description>
+      <guid>http://www.example.com/posts/dummy.pl/</guid>
+      <description>w budowie&amp;hellip;</description>
     </item>
     
     <item>
       <title>Theme Demo</title>
-      <link>https://jerey.at/posts/theme-demo/</link>
-      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      <link>http://www.example.com/posts/theme-demo/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jerey.at/posts/theme-demo/</guid>
-      <description>Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
-This is bold text
-This is italic text
-This is italic text
-Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
-    </item>
-    
-    <item>
-      <title>テーマデモ</title>
-      <link>https://jerey.at/posts/theme-demo.ja/</link>
-      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jerey.at/posts/theme-demo.ja/</guid>
+      <guid>http://www.example.com/posts/theme-demo/</guid>
       <description>Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
 This is bold text
 This is italic text
@@ -74,30 +47,30 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
     
     <item>
       <title>Creating a New Theme</title>
-      <link>https://jerey.at/posts/creating-a-new-theme/</link>
+      <link>http://www.example.com/posts/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://jerey.at/posts/creating-a-new-theme/</guid>
+      <guid>http://www.example.com/posts/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>https://jerey.at/posts/hugo-template-primer/</link>
+      <link>http://www.example.com/posts/hugo-template-primer/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://jerey.at/posts/hugo-template-primer/</guid>
+      <guid>http://www.example.com/posts/hugo-template-primer/</guid>
       <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.</description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://jerey.at/posts/hugoisforlovers/</link>
+      <link>http://www.example.com/posts/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://jerey.at/posts/hugoisforlovers/</guid>
+      <guid>http://www.example.com/posts/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
@@ -108,87 +81,39 @@ Follow the following steps:
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>https://jerey.at/posts/migrate-from-jekyll/</link>
+      <link>http://www.example.com/posts/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://jerey.at/posts/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://jerey.at/about.ja/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jerey.at/about.ja/</guid>
-      <description>title = &amp;ldquo;About Hugo&amp;rdquo; slug = &amp;ldquo;about&amp;rdquo; thumbnail = &amp;ldquo;images/tn.png&amp;rdquo; description = &amp;ldquo;about&amp;rdquo; +++
-このテーマはhugo-coderを元に作成をしています。
-一見綺麗なポートフォリをサイトですが、より個人的なことも伝えられるようにしました。
-変更点の詳細はブログから、&amp;rdquo;FeaturesOfCoderPortfolio&amp;rdquo;を見てください。
-それ以外のDEMOのコンテンツに関してはhugo-coderのものです。
-質問や、報告がありましたら、下記からお願いいたします。
- open an issue on GitHub
- ask me on Twitter
-  Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.
-Setup Some fun facts about Hugo:</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://jerey.at/contact.ja/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jerey.at/contact.ja/</guid>
-      <description> title = &amp;ldquo;Contact&amp;rdquo; slug = &amp;ldquo;contact&amp;rdquo; thumbnail = &amp;ldquo;images/tn.png&amp;rdquo; description = &amp;ldquo;contact&amp;rdquo; +++
-連絡をとりたいですか? 質問や報告などの連絡は下記からお願いします。
- open an issue on GitHub
- ask me on Twitter &amp;ndash;&amp;gt;  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://jerey.at/projects.ja/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jerey.at/projects.ja/</guid>
-      <description>title = &amp;ldquo;Projects&amp;rdquo; slug = &amp;ldquo;projects&amp;rdquo; thumbnail = &amp;ldquo;images/tn.png&amp;rdquo; description = &amp;ldquo;projects&amp;rdquo; +++
-Portfolio Demo   Coder Portfolio hugo-coderを元に作成しました。
-より自分を伝えられるようにしました。
-   &amp;ndash;&amp;gt;</description>
+      <guid>http://www.example.com/posts/migrate-from-jekyll/</guid>
+      <description>Table of Contents  Move static content to static Create your Hugo configuration file Set your configuration publish folder to site Convert Jekyll templates to Hugo templates Convert Jekyll plugins to Hugo shortcodes  Implementation Usage  Finishing Touches  Fix Content Clean Up  A practical example in a diff  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://jerey.at/about/</link>
+      <link>http://www.example.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jerey.at/about/</guid>
+      <guid>http://www.example.com/about/</guid>
       <description>Who I am a software developer from Salzburg/Austria and currently working in Bavaria as a C++ software engineer for BSH Homeappliances.
 Hobbies I enjoy travelling around the world, going for a mountain bike ride or for a nice hike in the mountains of this area. Further, I also enjoy programming in my spare time. Usually I come up with a project idea and then try to solve it with various technologies.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://jerey.at/contact/</link>
+      <link>http://www.example.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jerey.at/contact/</guid>
-      <description>Want Contact? Have questions or suggestions? Feel free to open an issue on GitHub or ask me on Twitter.</description>
+      <guid>http://www.example.com/contact/</guid>
+      <description>Follow me, @johndoe.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://jerey.at/projects/</link>
+      <link>http://www.example.com/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jerey.at/projects/</guid>
-      <description> Portfolio Demo  Coder Portfolio This theme is created based on hugo-coder.
-I made it possible to tell yourself more by my change.
-   </description>
+      <guid>http://www.example.com/projects/</guid>
+      <description>Nothing to see here&amp;hellip; Move along!</description>
     </item>
     
   </channel>
