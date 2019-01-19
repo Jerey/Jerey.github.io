@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Anton A. Jerey</title>
-    <link>http://www.example.com/tags/</link>
+    <link>https://jerey.at/tags/</link>
     <description>Recent content in Tags on Anton A. Jerey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 17 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jerey.at/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development</title>
-      <link>http://www.example.com/tags/development/</link>
+      <link>https://jerey.at/tags/development/</link>
       <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/tags/development/</guid>
+      <guid>https://jerey.at/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>http://www.example.com/tags/go/</link>
+      <link>https://jerey.at/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/tags/go/</guid>
+      <guid>https://jerey.at/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>http://www.example.com/tags/golang/</link>
+      <link>https://jerey.at/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/tags/golang/</guid>
+      <guid>https://jerey.at/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://www.example.com/tags/hugo/</link>
+      <link>https://jerey.at/tags/hugo/</link>
       <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/tags/hugo/</guid>
+      <guid>https://jerey.at/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Templates</title>
-      <link>http://www.example.com/tags/templates/</link>
+      <link>https://jerey.at/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/tags/templates/</guid>
+      <guid>https://jerey.at/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Themes</title>
-      <link>http://www.example.com/tags/themes/</link>
+      <link>https://jerey.at/tags/themes/</link>
       <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/tags/themes/</guid>
+      <guid>https://jerey.at/tags/themes/</guid>
       <description></description>
     </item>
     
