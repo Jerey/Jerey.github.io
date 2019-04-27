@@ -6,64 +6,9 @@
     <description>Recent content in Tags on Anton A. Jerey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jerey.at/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Development</title>
-      <link>https://jerey.at/tags/development/</link>
-      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jerey.at/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>https://jerey.at/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://jerey.at/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>https://jerey.at/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://jerey.at/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://jerey.at/tags/hugo/</link>
-      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jerey.at/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Templates</title>
-      <link>https://jerey.at/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://jerey.at/tags/templates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Themes</title>
-      <link>https://jerey.at/tags/themes/</link>
-      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jerey.at/tags/themes/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
