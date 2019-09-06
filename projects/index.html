@@ -104,17 +104,17 @@ Solution In order to reduce the amount of time spent organizing those documents,
 
     
 
-<h1 id="python-picture-to-text">Python Picture-to-Text</h1>
+<h2 id="python-picture-to-text">Python Picture-to-Text</h2>
 
 <p>A python tool used to extract text from images.
 For a more detailed view, see <a href="https://github.com/aaj07/image-to-pdf-and-txt">the repository</a>.</p>
 
-<h2 id="problem">Problem</h2>
+<h3 id="problem">Problem</h3>
 
 <p>I enjoy the thrive to the paperless world, as I find it much easier organizing digital documents.
 But since many documents are still required as a hardcopy, one is still forced to archive those.</p>
 
-<h2 id="solution">Solution</h2>
+<h3 id="solution">Solution</h3>
 
 <p>In order to reduce the amount of time spent organizing those documents, I bought a numbering stamp. This stamp automatically increases the number with each stamping. It is put on each document. Then I take a picture of all documents.
 After that, the pictures are organized in folders by the name of the number on the document.
@@ -123,11 +123,11 @@ Then the slightly rotated pictures are stored to a pdf and used to extract text 
 The hardcopy documents are now simply archived in order of the number of the stamp.
 Whenever I now need a certain document, I can simply search for it on the computer and it will tell me, which number the document has.</p>
 
-<h2 id="drawback">Drawback</h2>
+<h3 id="drawback">Drawback</h3>
 
 <p>The image must have a good resolution and the text must be well readable, otherwise the output will not be all that great. In that case, it is possible that searching fails. But it is possible to add descriptive names to the number of the folder name through which manual searching can be improved.</p>
 
-<h2 id="used-technologies">Used technologies</h2>
+<h3 id="used-technologies">Used technologies</h3>
 
 <ul>
 <li>Python 3</li>
@@ -135,6 +135,46 @@ Whenever I now need a certain document, I can simply search for it on the comput
 <li>Img2pdf</li>
 <li>Opencv_python</li>
 <li>Tesseract</li>
+</ul>
+
+<h2 id="weatherstation">Weatherstation</h2>
+
+<p>Tracks the room temperature and humidity. The stored data is presented in a local webpage.
+For a more detailed view, see <a href="https://github.com/aaj07/weatherstation-client">the client repository</a> and <a href="https://github.com/aaj07/weatherstation-server">the server repository</a>.</p>
+
+<h3 id="idea">Idea</h3>
+
+<p>Trying to find a project, which (at least) touches several technologies, I thought to create a weather station for tracking the room climate.
+The main goal behind this idea was to get a better insight in unkown technologies.</p>
+
+<h3 id="setup">Setup</h3>
+
+<p>The project consists of two major parts: The client, which measures the current temperature and humidity, and the server, which stores the received values and presents them in a nice way.</p>
+
+<h4 id="client">Client</h4>
+
+<p><a href="https://github.com/aaj07/weatherstation-client">The client</a> periodically measures the room climate and broadcasts the found values via UDP messages to the network it is connected to. It is based on an ESP8266.</p>
+
+<h4 id="server">Server</h4>
+
+<p><a href="https://github.com/aaj07/weatherstation-server">The server</a> stores the data of the broadcasts from the client to a SQL database. Further, it starts a webserver, which visualizes the data in form of graphs.</p>
+
+<h3 id="future-improvements">Future improvements</h3>
+
+<ul>
+<li>Switch to MQTT</li>
+<li>Enable deep sleep in the nodemcu and add batteries</li>
+<li>Automatic update server for the client</li>
+</ul>
+
+<h3 id="used-technologies-1">Used technologies</h3>
+
+<ul>
+<li>C++</li>
+<li>PlatformIO</li>
+<li>ESP8266</li>
+<li>NodeJS</li>
+<li>SQL</li>
 </ul>
 
   </article>
