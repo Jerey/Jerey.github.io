@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anton A. Jerey</title>
@@ -36,7 +36,7 @@ Hobbies I enjoy travelling around the world, going for a mountain bike ride or f
       
       <guid>https://jerey.at/projects/</guid>
       <description>Following some projects I have been working on in my spare time.
- Python Picture-to-Text  Problem Solution Drawback Used technologies  Weatherstation  Idea Setup Client Server  Node JS Server Node Red, InfluxDB and Grafana  Used technologies  Coffee Grinder Automation  Idea Goal Solution Used technologies    Python Picture-to-Text A python tool used to extract text from images. For a more detailed view, see the repository.</description>
+ Python Picture-to-Text  Problem Solution Drawback Used technologies   Weatherstation  Idea Setup  Client Server  Node JS Server Node Red, InfluxDB and Grafana     Used technologies   Coffee Grinder Automation  Idea Goal Solution Used technologies    Python Picture-to-Text A python tool used to extract text from images. For a more detailed view, see the repository.</description>
     </item>
     
   </channel>
