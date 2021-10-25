@@ -12,11 +12,13 @@
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Projects"/>
 <meta name="twitter:description" content="Following some projects I have been working on in my spare time.
- Python Picture-to-Text  Problem Solution Drawback Used technologies   Weatherstation  Idea Setup  Client Server  Node JS Server Node Red, InfluxDB and Grafana     Used technologies   Coffee Grinder Automation  Idea Goal Solution Used technologies    Python Picture-to-Text A python tool used to extract text from images. For a more detailed view, see the repository."/>
+ Python Picture-to-Text Weatherstation Coffee Grinder Automation  Python Picture-to-Text A python tool used to extract text from images. For a more detailed view, see the repository.
+Problem I enjoy the thrive to the paperless world, as I find it much easier to organize documents digitally. But since many documents are still required as a hardcopy, one is forced to archive those."/>
 
     <meta property="og:title" content="Projects" />
 <meta property="og:description" content="Following some projects I have been working on in my spare time.
- Python Picture-to-Text  Problem Solution Drawback Used technologies   Weatherstation  Idea Setup  Client Server  Node JS Server Node Red, InfluxDB and Grafana     Used technologies   Coffee Grinder Automation  Idea Goal Solution Used technologies    Python Picture-to-Text A python tool used to extract text from images. For a more detailed view, see the repository." />
+ Python Picture-to-Text Weatherstation Coffee Grinder Automation  Python Picture-to-Text A python tool used to extract text from images. For a more detailed view, see the repository.
+Problem I enjoy the thrive to the paperless world, as I find it much easier to organize documents digitally. But since many documents are still required as a hardcopy, one is forced to archive those." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jerey.at/projects/" />
 <meta property="og:site_name" content="Anton A. Jerey" />
@@ -102,55 +104,27 @@
 
     <p>Following some projects I have been working on in my spare time.</p>
 <ul>
-<li><a href="#python-picture-to-text">Python Picture-to-Text</a>
-<ul>
-<li><a href="#problem">Problem</a></li>
-<li><a href="#solution">Solution</a></li>
-<li><a href="#drawback">Drawback</a></li>
-<li><a href="#used-technologies">Used technologies</a></li>
-</ul>
-</li>
-<li><a href="#weatherstation">Weatherstation</a>
-<ul>
-<li><a href="#idea">Idea</a></li>
-<li><a href="#setup">Setup</a>
-<ul>
-<li><a href="#client">Client</a></li>
-<li><a href="#server">Server</a>
-<ul>
-<li><a href="#node-js-server">Node JS Server</a></li>
-<li><a href="#node-red-influxdb-and-grafana">Node Red, InfluxDB and Grafana</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#used-technologies-1">Used technologies</a></li>
-</ul>
-</li>
-<li><a href="#coffee-grinder-automation">Coffee Grinder Automation</a>
-<ul>
-<li><a href="#idea-1">Idea</a></li>
-<li><a href="#goal">Goal</a></li>
-<li><a href="#solution-1">Solution</a></li>
-<li><a href="#used-technologies-2">Used technologies</a></li>
-</ul>
-</li>
+<li><a href="#python-picture-to-text">Python Picture-to-Text</a></li>
+<li><a href="#weatherstation">Weatherstation</a></li>
+<li><a href="#coffee-grinder-automation">Coffee Grinder Automation</a></li>
 </ul>
 <h2 id="python-picture-to-text">Python Picture-to-Text</h2>
 <p>A python tool used to extract text from images.
 For a more detailed view, see <a href="https://github.com/jerey/image-to-pdf-and-txt">the repository</a>.</p>
 <h3 id="problem">Problem</h3>
-<p>I enjoy the thrive to the paperless world, as I find it much easier organizing digital documents.
-But since many documents are still required as a hardcopy, one is still forced to archive those.</p>
+<p>I enjoy the thrive to the paperless world, as I find it much easier to organize documents digitally.
+But since many documents are still required as a hardcopy, one is forced to archive those.
+A tough question then is: How many and which categories of organizers will one need?</p>
 <h3 id="solution">Solution</h3>
-<p>In order to reduce the amount of time spent organizing those documents, I bought a numbering stamp. This stamp automatically increases the number with each stamping. It is put on each document. Then I take a picture of all documents.
+<p>In order to reduce the amount of time spent organizing those documents, I bought a numbering stamp. This stamp automatically increases the number with each stamping. It is put on each document and then I take a picture of all documents.
 After that, the pictures are organized in folders by the name of the number on the document.
-Then a python script is started with the path to the images. This script takes one to many pictures per document, tries to align them in a way that the text is &ldquo;as horizontal as possible&rdquo;. This is done, since one easily is off by a few degrees when taking pictures with a camera or a phone.
+Then a python script is started with the path to the images. This script takes one to many pictures per document and tries to align them in a way that the text is &ldquo;as horizontal as possible&rdquo;. This is done since one easily is off by a few degrees when taking pictures with a camera or a phone. Aligning the text as horizontal as possible will drastically increase the text extracted from the document.
 Then the slightly rotated pictures are stored to a pdf and used to extract text from them. This text then is stored to txt-files.
 The hardcopy documents are now simply archived in order of the number of the stamp.
-Whenever I now need a certain document, I can simply search for it on the computer and it will tell me, which number the document has.</p>
+Whenever I need a certain document, I can search for any text in it on the computer and it will tell me, which number the document has.
+Then I simply have to look for the organizer with the matching number range and will find the hardcopy I was looking for.</p>
 <h3 id="drawback">Drawback</h3>
-<p>The image must have a good resolution and the text must be well readable, otherwise the output will not be all that great. In that case, it is possible that searching fails. But it is possible to add descriptive names to the number of the folder name through which manual searching can be improved.</p>
+<p>The image must have a good resolution and the text must be well readable, otherwise the text output will not be all that great. In that case, it is possible that searching fails. Therefore it is advisable to add descriptive names to the number of the folder name through which manual searching can be improved.</p>
 <h3 id="used-technologies">Used technologies</h3>
 <ul>
 <li>Python 3</li>
@@ -173,11 +147,11 @@ The main goal behind this idea was to get a better insight in unknown technologi
 <p>The server&rsquo;s task is to store and visualize the temperature data. This can either be done with the <a href="#node-js-server">node js webserver</a>, which was self created, or with <a href="#node-red-influxdb-and-grafana">node-red, influxdb and grafana</a></p>
 <h5 id="node-js-server">Node JS Server</h5>
 <p><a href="https://github.com/jerey/weatherstation-server">The server</a> stores the published data the client to a SQL database. Further, it starts a webserver, which visualizes the data in form of graphs.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h5 id="node-red-influxdb-and-grafana">Node Red, InfluxDB and Grafana</h5>
-<p>Alternatively one can also define a node red flow, which automatically stores the published data to an <code>InfluxDB</code>. The visualization then is done with the help of <code>Grafana</code>.</p>
-<!-- raw HTML omitted -->
+<img src="https://jerey.at/images/project/WeatherstationNodeJSServer1.png" width="400">
+<img src="https://jerey.at/images/project/WeatherstationNodeJSServer2.png" width="400">
+<h5 id="node-red-influxdb-and-grafana">Node-red, InfluxDB and Grafana</h5>
+<p>Alternatively one can also define a node-red flow, which automatically stores the published data to an <code>InfluxDB</code>. The visualization then is done with the help of <code>Grafana</code>.</p>
+<img src="https://jerey.at/images/project/WeatherstationGrafana.png" width="1000">
 <h3 id="used-technologies-1">Used technologies</h3>
 <ul>
 <li>C++</li>
@@ -186,7 +160,7 @@ The main goal behind this idea was to get a better insight in unknown technologi
 <li>NodeJS</li>
 <li>SQL</li>
 <li>Python</li>
-<li>Node Red</li>
+<li>Node-red</li>
 <li>MQTT</li>
 <li>Docker / Docker-compose</li>
 <li>Grafana</li>
@@ -205,14 +179,14 @@ The main goal behind this idea was to get a better insight in unknown technologi
 <h3 id="solution-1">Solution</h3>
 <p>Having gained some experience in the ESP8266 world, I decided to use a D1-mini for the task. Further, after some research, I chose to use a load cell along with the load cell amplifier HX711. The mill itself is switched on and off by a relay controlled by the D1-mini.</p>
 <p>A node-red flow along with the node-red-dashboard are used to control the D1-mini. The commands are sent through mqtt topics.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<img src="https://jerey.at/images/project/CoffeeGrinderDashboard.png" width="800">
+<img src="https://jerey.at/images/project/CoffeeGrinderProtoType.jpg" width="800">
 <h3 id="used-technologies-2">Used technologies</h3>
 <ul>
 <li>C++</li>
 <li>PlatformIO</li>
 <li>ESP8266</li>
-<li>Node Red</li>
+<li>Node-red</li>
 <li>MQTT</li>
 <li>Docker / Docker-compose</li>
 </ul>
