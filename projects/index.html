@@ -134,24 +134,13 @@ Then I simply have to look for the organizer with the matching number range and 
 <li>Tesseract</li>
 </ul>
 <h2 id="weatherstation">Weatherstation</h2>
-<p>Tracks the room temperature and humidity. The stored data is presented in a local webpage.
+<p>Looking for a project to work on in my spare time (which touches several technologies), I came across the <code>ESP8266</code> and had the idea, to create a &ldquo;weatherstation&rdquo;. It should be able to track the room climate by storing the current temperature and humidity. Additionally, this collected data should be presented in a nice way.
 For a more detailed view, see <a href="https://github.com/jerey/weatherstation-client">the client repository</a> and <a href="https://github.com/jerey/weatherstation-server">the server repository</a>.</p>
-<h3 id="idea">Idea</h3>
-<p>Trying to find a project, which (at least) touches several technologies, I thought to create a weather station for tracking the room climate.
-The main goal behind this idea was to get a better insight in unknown technologies.</p>
 <h3 id="setup">Setup</h3>
-<p>The project consists of two major parts: The <a href="#client">client</a>, which measures the current temperature and humidity, and a <a href="#server">server</a>, which stores the received values and presents them in a nice way.</p>
-<h4 id="client">Client</h4>
-<p><a href="https://github.com/jerey/weatherstation-client">The client</a> periodically measures the room climate and publishes the values based on MQTT. It is based on an ESP8266.</p>
-<h4 id="server">Server</h4>
-<p>The server&rsquo;s task is to store and visualize the temperature data. This can either be done with the <a href="#node-js-server">node js webserver</a>, which was self created, or with <a href="#node-red-influxdb-and-grafana">node-red, influxdb and grafana</a></p>
-<h5 id="node-js-server">Node JS Server</h5>
-<p><a href="https://github.com/jerey/weatherstation-server">The server</a> stores the published data the client to a SQL database. Further, it starts a webserver, which visualizes the data in form of graphs.</p>
-<img src="https://jerey.at/images/project/WeatherstationNodeJSServer1.png" width="400">
-<img src="https://jerey.at/images/project/WeatherstationNodeJSServer2.png" width="400">
-<h5 id="node-red-influxdb-and-grafana">Node-red, InfluxDB and Grafana</h5>
-<p>Alternatively one can also define a node-red flow, which automatically stores the published data to an <code>InfluxDB</code>. The visualization then is done with the help of <code>Grafana</code>.</p>
-<img src="https://jerey.at/images/project/WeatherstationGrafana.png" width="1000">
+<p>The project consists of two major parts: <a href="https://github.com/jerey/weatherstation-client">The client</a>, which measures the current temperature and humidity, and publishes the data via <code>MQTT</code>. It is based on an <code>ESP8266</code>. And a server, which stores the received values and presents them in a nice way. There are multiple ways to start a server taking care of the data: Either with a <a href="https://github.com/jerey/weatherstation-server">nodejs based server</a>, which was specifically created for this project utilizing a SQL database to store the values and starting a webserver to present the data in form of graphs. Or with the help of <code>node-red</code>, <code>influxdb</code> and <code>grafana</code>. Here a <code>node-red</code> flow is be started, which automatically stores the published data to an <code>InfluxDB</code> and <code>Grafana</code> is used to visualize it.</p>
+<img src="https://jerey.at/images/project/WeatherstationNodeJSServer1.png" alt="NodeJS weatherstation server" width="400">
+<img src="https://jerey.at/images/project/WeatherstationNodeJSServer2.png" alt="NodeJS weatherstation server" width="400">
+<img src="https://jerey.at/images/project/WeatherstationGrafana.png" alt="Node-RED, InfluxDB and Grafana alternative." width="1000">
 <h3 id="used-technologies-1">Used technologies</h3>
 <ul>
 <li>C++</li>
@@ -168,7 +157,7 @@ The main goal behind this idea was to get a better insight in unknown technologi
 </ul>
 <h2 id="coffee-grinder-automation">Coffee Grinder Automation</h2>
 <p>When started, switches a coffee grinder on until a given time has passed, or a given target weight is reached. See the github <a href="https://github.com/jerey/coffee-automation">repository</a> for a detailed description.</p>
-<h3 id="idea-1">Idea</h3>
+<h3 id="idea">Idea</h3>
 <p>I enjoy a good cup of coffee. For that, I have bought myself a coffee grinder to start with, along with a nice espresso machine. To achieve a proper coffee result, several factors are important. One of them is the bean amount. So far, I had to stand by the mill with a scale and manually measure the amount of beans, that has come out of it. After having worked from home for a while, I got annoyed of this, so I decided to automatize the grinding of the beans.</p>
 <h3 id="goal">Goal</h3>
 <p>My major goals of this project were:</p>
