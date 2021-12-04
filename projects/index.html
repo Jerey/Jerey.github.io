@@ -12,11 +12,11 @@
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Projects"/>
 <meta name="twitter:description" content="Following some projects I have been working on in my spare time.
- Python Picture-to-Text Weatherstation Coffee Grinder Automation Mara-X-Meter  Python Picture-to-Text I enjoy the thrive to the paperless world, as I find it much easier to organize documents digitally. But since many documents are still required as a hardcopy, one is forced to archive those. A tough question then is: How many and which categories of organizers will one need for all documents?"/>
+ Python Picture-to-Text Weatherstation Coffee Grinder Automation Mara-X-Meter  Python Picture-to-Text    I enjoy the thrive to the paperless world, as I find it much easier to organize documents digitally. But since many documents are still required as a hardcopy, one is forced to archive those. A tough question then is: How many and which categories of organizers will one need for all documents?"/>
 
     <meta property="og:title" content="Projects" />
 <meta property="og:description" content="Following some projects I have been working on in my spare time.
- Python Picture-to-Text Weatherstation Coffee Grinder Automation Mara-X-Meter  Python Picture-to-Text I enjoy the thrive to the paperless world, as I find it much easier to organize documents digitally. But since many documents are still required as a hardcopy, one is forced to archive those. A tough question then is: How many and which categories of organizers will one need for all documents?" />
+ Python Picture-to-Text Weatherstation Coffee Grinder Automation Mara-X-Meter  Python Picture-to-Text    I enjoy the thrive to the paperless world, as I find it much easier to organize documents digitally. But since many documents are still required as a hardcopy, one is forced to archive those. A tough question then is: How many and which categories of organizers will one need for all documents?" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jerey.at/projects/" /><meta property="article:section" content="" />
 
@@ -109,7 +109,12 @@
 <li><a href="#coffee-grinder-automation">Coffee Grinder Automation</a></li>
 <li><a href="#mara-x-meter">Mara-X-Meter</a></li>
 </ul>
-<h2 id="python-picture-to-text">Python Picture-to-Text</h2>
+<h2 id="python-picture-to-text">
+  Python Picture-to-Text
+  <a class="heading-link" href="#python-picture-to-text">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
 <p>I enjoy the thrive to the paperless world, as I find it much easier to organize documents digitally.
 But since many documents are still required as a hardcopy, one is forced to archive those.
 A tough question then is: How many and which categories of organizers will one need for all documents?
@@ -117,7 +122,12 @@ For me, I decided that I do not want any categories and each organizer should be
 To be able to find documents, I wrote a python program which extracts the text from the scanned documents and stores it in a computer processable way.
 Additionally each document is stamped with a numbering stamp (which automatically increases its number with each stamping) and the computer processable data is stored in folders named by the number of the document. So whenever I am looking for a certain document, I type in keywords from the document and the computer will provide me with the number of the document and a preview of it. Then I can grab the organizer, which has the number range written on it, and take the document from it.</p>
 <p>For a more detailed view, see <a href="https://github.com/jerey/image-to-pdf-and-txt">the repository</a>.</p>
-<h3 id="used-technologies">Used technologies</h3>
+<h3 id="used-technologies">
+  Used technologies
+  <a class="heading-link" href="#used-technologies">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <ul>
 <li>Python 3</li>
 <li>PyOcr</li>
@@ -125,14 +135,24 @@ Additionally each document is stamped with a numbering stamp (which automaticall
 <li>Opencv_python</li>
 <li>Tesseract</li>
 </ul>
-<h2 id="weatherstation">Weatherstation</h2>
+<h2 id="weatherstation">
+  Weatherstation
+  <a class="heading-link" href="#weatherstation">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
 <p>Looking for a project to work on in my spare time (which touches several technologies), I came across the <code>ESP8266</code> and had the idea, to create a &ldquo;weatherstation&rdquo;. It should be able to track the room climate by storing the current temperature and humidity. Additionally, this collected data should be presented in a nice way.</p>
 <p>The project consists of two major parts: <a href="https://github.com/jerey/weatherstation-client">The client</a>, which measures the current temperature and humidity, and publishes the data via <code>MQTT</code>. It is based on an <code>ESP8266</code>. And a server, which stores the received values and presents them in a nice way. There are multiple ways to start a server taking care of the data: Either with a <a href="https://github.com/jerey/weatherstation-server">nodejs based server</a>, which was specifically created for this project utilizing a SQL database to store the values and starting a webserver to present the data in form of graphs. Or with the help of <code>node-red</code>, <code>influxdb</code> and <code>grafana</code>. Here a <code>node-red</code> flow is be started, which automatically stores the published data to an <code>InfluxDB</code> and <code>Grafana</code> is used to visualize it.</p>
 <img src="https://jerey.at/images/project/WeatherstationNodeJSServer1.png" alt="NodeJS weatherstation server" width="400">
 <img src="https://jerey.at/images/project/WeatherstationNodeJSServer2.png" alt="NodeJS weatherstation server" width="400">
 <img src="https://jerey.at/images/project/WeatherstationGrafana.png" alt="Node-RED, InfluxDB and Grafana alternative." width="1000">
 <p>For a more detailed view, see <a href="https://github.com/jerey/weatherstation-client">the client repository</a> and <a href="https://github.com/jerey/weatherstation-server">the server repository</a>.</p>
-<h3 id="used-technologies-1">Used technologies</h3>
+<h3 id="used-technologies-1">
+  Used technologies
+  <a class="heading-link" href="#used-technologies-1">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <ul>
 <li>C++</li>
 <li>PlatformIO</li>
@@ -146,7 +166,12 @@ Additionally each document is stamped with a numbering stamp (which automaticall
 <li>Grafana</li>
 <li>InfluxDB</li>
 </ul>
-<h2 id="coffee-grinder-automation">Coffee Grinder Automation</h2>
+<h2 id="coffee-grinder-automation">
+  Coffee Grinder Automation
+  <a class="heading-link" href="#coffee-grinder-automation">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
 <p>I enjoy a good cup of coffee. To enjoy that at home, I bought a coffee grinder along with a nice espresso machine. To receive a good tasting coffee, several factors are important (coarseness, dosage, quality of the beans, extraction time, &hellip;). To find the best tasting coffee it is important to minimize the changing factors. One of them typically is the bean amount. So far I had to stand by the coffee mill with a scale and manually measure the amount of ground beans, that has come out of it. After having worked from home for a while, I got annoyed of this, so I decided to automatize the grinding of the beans.</p>
 <p>Having gained some experience in the <code>ESP8266</code> world, I decided to use a <code>D1-mini</code> for the task. After some research, I chose to use a load cell along with the load cell amplifier HX711. The mill itself is switched on and off by a relay controlled by the <code>D1-mini</code>.</p>
 <p>A <code>node-red</code> flow along with the <code>node-red</code>-dashboard are used to control the <code>D1-mini</code>. The commands are sent through <code>mqtt</code> topics.</p>
@@ -155,7 +180,12 @@ The main challenge with this project was: While grinding it takes some time unti
 <img src="https://jerey.at/images/project/CoffeeGrinderDashboard.png" alt="Node-RED dashboard" width="800">
 <img src="https://jerey.at/images/project/CoffeeGrinderProtoType.jpg" alt="Coffee grinder prototype" width="800">
 <p>See the github <a href="https://github.com/jerey/coffee-automation">repository</a> for a detailed description.</p>
-<h3 id="used-technologies-2">Used technologies</h3>
+<h3 id="used-technologies-2">
+  Used technologies
+  <a class="heading-link" href="#used-technologies-2">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <ul>
 <li>C++</li>
 <li>PlatformIO</li>
@@ -164,13 +194,23 @@ The main challenge with this project was: While grinding it takes some time unti
 <li>MQTT</li>
 <li>Docker / Docker-compose</li>
 </ul>
-<h2 id="mara-x-meter">Mara-X-Meter</h2>
+<h2 id="mara-x-meter">
+  Mara-X-Meter
+  <a class="heading-link" href="#mara-x-meter">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
 <p>My espresso machine is a Lelit Mara-X. Among several adaptions to the classic E-61 brewing unit, the Mara-X has a serial in- and output. The machine provides the current software version, the target boiler temperature, the current boiler temperature, the current heat exchanger temperature and whether the heating currently is on or off over this interface.
 I have seen several projects visualizing this data in various ways.
 Since the aesthetics of the coffee machine shouldn&rsquo;t be impact to much by a modern display, I decided to use an e-paper display to visualize the data relevant to me and also draw a heatup graph.</p>
 <img src="https://jerey.at/images/project/Heatup.gif">
 <p>See the github <a href="https://github.com/Jerey/mara-x-meter">repository</a> for a detailed description.</p>
-<h3 id="used-technologies-3">Used technologies</h3>
+<h3 id="used-technologies-3">
+  Used technologies
+  <a class="heading-link" href="#used-technologies-3">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <ul>
 <li>C++</li>
 <li>PlatformIO</li>

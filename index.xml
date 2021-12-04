@@ -12,8 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jerey.at/about/</guid>
-      <description>Who I am a software developer from Salzburg/Austria and currently working in Bavaria as a C++ software engineer for BSH Homeappliances.
-Hobbies I enjoy travelling around the world, going for a mountain bike ride or for a nice hike in the mountains of this area. Further, I also enjoy programming in my spare time. Usually I come up with a project idea and then try to solve it with various technologies.</description>
+      <description>Who    I am a software developer from Salzburg/Austria and currently working in Bavaria as a C++ software engineer for BSH Homeappliances.
+Hobbies    I enjoy travelling around the world, going for a mountain bike ride or for a nice hike in the mountains of this area. Further, I also enjoy programming in my spare time. Usually I come up with a project idea and then try to solve it with various technologies.</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@ Hobbies I enjoy travelling around the world, going for a mountain bike ride or f
       
       <guid>https://jerey.at/projects/</guid>
       <description>Following some projects I have been working on in my spare time.
- Python Picture-to-Text Weatherstation Coffee Grinder Automation Mara-X-Meter  Python Picture-to-Text I enjoy the thrive to the paperless world, as I find it much easier to organize documents digitally. But since many documents are still required as a hardcopy, one is forced to archive those. A tough question then is: How many and which categories of organizers will one need for all documents?</description>
+ Python Picture-to-Text Weatherstation Coffee Grinder Automation Mara-X-Meter  Python Picture-to-Text    I enjoy the thrive to the paperless world, as I find it much easier to organize documents digitally. But since many documents are still required as a hardcopy, one is forced to archive those. A tough question then is: How many and which categories of organizers will one need for all documents?</description>
     </item>
     
   </channel>
