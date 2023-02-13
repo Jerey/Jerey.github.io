@@ -1,6 +1,6 @@
 ---
 title: Coffee Grinder Automation
-publishDate: 2019-10-02 00:00:00
+publishDate: 2020-04-01 00:00:00
 img: /assets/project/CoffeeGrinderProtoType.jpg
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |

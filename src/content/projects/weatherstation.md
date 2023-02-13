@@ -1,6 +1,6 @@
 ---
 title: Weatherstation
-publishDate: 2020-03-04 00:00:00
+publishDate: 2017-09-01 00:00:00
 img: /assets/project/WeatherstationNodeJSServer2.png
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |

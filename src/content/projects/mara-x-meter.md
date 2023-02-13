@@ -1,6 +1,6 @@
 ---
 title: Mara X Meter
-publishDate: 2020-03-02 00:00:00 #TODO: Add the publish date here.
+publishDate: 2021-07-01 00:00:00
 img: /assets/project/Heatup.gif
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
