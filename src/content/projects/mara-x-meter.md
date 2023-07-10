@@ -2,7 +2,7 @@
 title: Mara X Meter
 publishDate: 2021-07-01 00:00:00
 img: /assets/project/Heatup.gif
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: Mara X e-ink display.
 description: |
   E-Ink display visualizing the heat-up of a mara-x.
 tags:

@@ -2,7 +2,7 @@
 title: Coffee Grinder Automation
 publishDate: 2020-04-01 00:00:00
 img: /assets/project/CoffeeGrinderProtoType.jpg
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img_alt: Scale controlled coffee grinder.
 description: |
   Microcontroller and scale controlled coffee grinder controllable via Mqtt.
 tags:

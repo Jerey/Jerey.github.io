@@ -2,7 +2,7 @@
 title: Image to Text
 publishDate: 2019-02-01 00:00:00
 img: /assets/project/img2txt.gif
-img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
+img_alt: Image to text.
 description: |
   Tool to extract the text of an image to make documents searchable.
 tags:

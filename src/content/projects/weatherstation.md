@@ -2,7 +2,7 @@
 title: Weatherstation
 publishDate: 2017-09-01 00:00:00
 img: /assets/project/WeatherstationNodeJSServer2.png
-img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
+img_alt: Weatherstation graphs.
 description: |
   Hard- and software project to track, store and visualize the current temperature and humidity.
 tags:
