@@ -1,6 +1,7 @@
 ---
-import Icon, { Props as IconProps } from "./Icon.astro";
+import Icon from "./Icon.astro";
 import ThemeToggle from "./ThemeToggle.astro";
+import type { iconPaths } from "./IconPaths";
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
@@ -10,7 +11,11 @@ const textLinks: { label: string; href: string }[] = [
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
-const iconLinks: { label: string; href: string; icon: IconProps["icon"] }[] = [
+const iconLinks: {
+	label: string;
+	href: string;
+	icon: keyof typeof iconPaths;
+}[] = [
 	{
 		label: "GitHub",
 		href: "https://github.com/jerey/",
@@ -33,7 +38,7 @@ const iconLinks: { label: string; href: string; icon: IconProps["icon"] }[] = [
 				size="1.6em"
 				gradient
 			/>
-			Anton A. Jerey
+			 Anton A. Jerey
 		</a>
 		<menu-button>
 			<template>
@@ -289,7 +294,8 @@ const iconLinks: { label: string; href: string; icon: IconProps["icon"] }[] = [
 		.link {
 			padding: 0.5rem 1rem;
 			border-radius: 999rem;
-			transition: color var(--theme-transition),
+			transition:
+				color var(--theme-transition),
 				background-color var(--theme-transition);
 		}
 
