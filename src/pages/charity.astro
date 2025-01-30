@@ -1,0 +1,52 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CharityCard from "../components/CharityCard.astro";
+
+const charities = [
+  {
+    name: "Bunter Kreis Traunstein",
+    description:
+      "Provides holistic support for families with severely and chronically ill children, ensuring comprehensive medical, psychological, and social care to enhance their quality of life post-hospitalization.",
+    link: "https://www.kliniken-suedostbayern.de/de/leistung/klinikum-traunstein/kinder-jugendmedizin-traunstein/bunter-kreis.htm#a11221",
+    image: "/images/bunter-kreis-traunstein.jpg",
+  },
+  {
+    name: "Pediatric Clinic Traunstein",
+    description:
+      "The children's clinic in Traunstein offers comprehensive care for children. They found Anton's heart defect in the first place and took care of him after his long stay in Großhadern.",
+    link: "https://www.kliniken-suedostbayern.de/de/patienten/spenden-helfen/spenden-abteilungen/spenden-kinderklinik.htm",
+    image: "/images/kinderkardiologie-traunstein.jpg",
+  },
+  {
+    name: "Pediatric Cardiology Großhadern",
+    description:
+      "The pediatric cardiology department at the LMU Großhadern is one of the leading centers for pediatric cardiology in Germany. They diagnosed Anton's heart defect and performed his surgery.",
+    link: "https://www.lmu-klinikum.de/kinderkardiologie/patientenportal/spenden/8ed9875adaeb5579",
+    image: "/images/kinderkardiologie-grosshadern.jpg",
+  },
+  {
+    name: "Our Charity",
+    description:
+      "Our own charity initiative focused on supporting various child health programs.",
+    link: "#",
+    image: "/images/our-charity.jpg",
+  },
+];
+---
+
+<BaseLayout
+  title="Charity Donations"
+  description="Learn more about various charities and make a donation to support their causes."
+>
+  <header>
+    <h1>Charity Donations</h1>
+    <p>
+      Support these wonderful organizations by learning more and donating to
+      their causes.
+    </p>
+  </header>
+
+  <main>
+    {charities.map((charity) => <CharityCard {...charity} />)}
+  </main>
+</BaseLayout>

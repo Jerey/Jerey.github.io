@@ -1,0 +1,33 @@
+---
+const { name, description, link } = Astro.props;
+---
+
+<div class="charity-card">
+  <h2>{name}</h2>
+  <p>{description}</p>
+  <a href={link} target="_blank" rel="noopener noreferrer"
+    >Learn More & Donate</a
+  >
+</div>
+
+<style>
+  .charity-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+  }
+
+  .charity-card h2 {
+    margin: 0 0 0.5rem;
+  }
+
+  .charity-card a {
+    color: #007acc;
+    text-decoration: none;
+  }
+
+  .charity-card a:hover {
+    text-decoration: underline;
+  }
+</style>
