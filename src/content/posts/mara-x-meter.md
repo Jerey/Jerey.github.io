@@ -4,7 +4,7 @@ published: 2021-07-01
 # updated: 2024-11-29
 description: 'E-Ink display visualizing the heat-up of a mara-x.'
 image: '/assets/project/Heatup.gif'
-tags: [Coffee, ESP, E-Ink, Mara-x, C++]
+tags: [Coffee, ESP, E-Ink, Mara-X, C++]
 category: 'Projects'
 draft: false 
 ---
