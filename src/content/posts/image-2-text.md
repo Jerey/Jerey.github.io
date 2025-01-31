@@ -4,7 +4,10 @@ published: 2019-02-01
 updated: 2025-01-31
 description: 'A Python tool that extracts text from scanned documents, stores it digitally, and organizes them using a numbering system for easy retrieval.'
 image: '/assets/project/img2txt.gif'
-tags: [Python, OpenCV]
+tags: [
+    OpenCV,
+    Python,
+]
 category: 'Projects'
 draft: false 
 ---

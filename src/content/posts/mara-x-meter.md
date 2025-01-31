@@ -2,9 +2,15 @@
 title: Mara X Meter
 published: 2021-07-01
 updated: 2025-01-31
-description: 'An e-paper display whcih visualizes the heat-up process and key metrics of the Lelit Mara-X espresso machine.'
+description: 'An e-paper display which visualizes the heat-up process and key metrics of the Lelit Mara-X espresso machine.'
 image: '/assets/project/Heatup.gif'
-tags: [Coffee, ESP, E-Ink, Mara-X, C++]
+tags: [
+    C++,
+    Coffee, 
+    E-Ink, 
+    ESP, 
+    Mara-X, 
+]
 category: 'Projects'
 draft: false 
 ---
