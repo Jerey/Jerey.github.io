@@ -1,155 +1,22 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from "../components/ContactCTA.astro";
-import Hero from "../components/Hero.astro";
+import MainGridLayout from '../layouts/MainGridLayout.astro'
+
+import { getEntry } from 'astro:content'
+import { i18n } from '../i18n/translation'
+import I18nKey from '../i18n/i18nKey'
+import Markdown from '@components/misc/Markdown.astro'
+
+const aboutPost = await getEntry('spec', 'about')
+
+const { Content } = await aboutPost.render()
 ---
-
-<BaseLayout
-	title="About | Anton A. Jerey"
-	description="About Anton A. Jerey Lorem Ipsum"
->
-	<div class="stack gap-20">
-		<main class="wrapper about">
-			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
-			>
-				<!-- TODO: Consider adding an image here. -->
-				<!-- <img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Anton A. Jerey at work with a colleague"
-				/> -->
-			</Hero>
-
-			<section>
-				<h2 class="section-title">Background</h2>
-				<div class="content">
-					<p>
-						I am a software developer from Salzburg/Austria and currently
-						working in Bavaria as a C++ software engineer for BSH
-						Homeappliances.
-					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Experience</h2>
-				<div class="content">
-					<p>
-						Apart from several internships, I am currently working at BSH GmbH
-						since November 2015. Initially as an external employee, the company
-						hired me in the beginning of 2016. Since then, I have worked in
-						three major projects:
-						<ul>
-							<li>
-								Currently I am the technical lead of an in-house C++ framework
-								for application development used by five product divisions
-								across three countries.
-							</li>
-							<li>
-								Designed, implemented and maintained a coffee maker middleware
-								software used by all upcoming coffee machines with a touch
-								display.
-							</li>
-							<li>
-								Designed, implemented and maintained an oven middleware software
-								used by multiple ovens.
-							</li>
-						</ul>
-					</p>
-					<p>
-						Additionally, I also enjoy being a mentor for new colleagues. I also
-						organize knowledge transfers and group code reviews.
-					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>
-						Finding computers fascinating, I started my technical education at
-						the <a href="http://www.htl-salzburg.ac.at/"
-							>Higher Technical Education Institute</a
-						> in Salzburg. After attending the school for five years, I started my
-						bachelors at the <a href="https://www.fh-salzburg.ac.at/"
-							>University of applied sciences</a
-						> in Salzburg. During this time I had the chance to study one semester
-						abroad at the <a href="https://www.hh.se/english.html"
-							>Univeristy Halmstad</a
-						> in Sweden. For my masters degree I went to the <a
-							href="https://www.hs-heilbronn.de/en">University of Heilbronn</a
-						>.
-					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>C++, Google Test, Google Mock, GIT, Python, Linux, ...</p>
-				</div>
-			</section>
-		</main>
-
-		<ContactCTA />
-	</div>
-</BaseLayout>
-
-<style>
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
-
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
-
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
-
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
-
-	.content {
-		grid-column: 2 / 4;
-	}
-
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
-
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
-
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
-
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
-
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
-</style>
+<MainGridLayout title={i18n(I18nKey.about)} description={i18n(I18nKey.about)}>
+    <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
+        <div class="card-base z-10 px-9 py-6 relative w-full ">
+            <Markdown class="mt-2">
+                <Content />
+            </Markdown>
+        </div>
+    </div>
+</MainGridLayout>
