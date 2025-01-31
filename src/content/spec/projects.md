@@ -9,3 +9,7 @@ Following is a small selection of projects I worked on in my spare time.
 ## Coffee Grinder Automation
 
 ::github{repo="Jerey/Jerey/coffee-automation"}
+
+## Image to Text
+
+::github{repo="Jerey/image-to-pdf-and-txt"}
