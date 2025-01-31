@@ -20,5 +20,4 @@ The main challenge with this project was: While grinding it takes some time unti
 
 <img src="/assets/project/CoffeeGrinderDashboard.png" alt="Node-RED dashboard" width="800">
 
-
 ::github{repo="Jerey/coffee-automation"}
