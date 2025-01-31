@@ -41,6 +41,7 @@ export const navBarConfig: NavBarConfig = {
   links: [
     LinkPreset.Home,
     LinkPreset.Archive,
+    LinkPreset.Projects,
     LinkPreset.About,
     // The following would create an link on the top.
     // {
