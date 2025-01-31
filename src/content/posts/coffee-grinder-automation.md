@@ -1,7 +1,7 @@
 ---
 title: Coffee Grinder Automation
 published: 2020-04-01
-# updated: 2024-11-29
+updated: 2025-01-31
 description: 'An automated coffee grinder using a D1-mini and load cell to achieve precise weight-based grinding for consistent coffee quality.'
 image: '/assets/project/CoffeeGrinderProtoType.jpg'
 tags: [Coffee, ESP, C++, MQTT]
