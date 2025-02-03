@@ -3,7 +3,7 @@ title: Weatherstation
 published: 2017-09-01
 updated: 2025-01-31
 description: 'Hard- and software project to track, store and visualize the current temperature and humidity.'
-image: '/assets/project/WeatherstationNodeJSServer2.png'
+image: './assets/project/WeatherstationNodeJSServer2.png'
 tags: [
     C++, 
     ESP, 
@@ -21,9 +21,9 @@ Looking for a project to work on in my spare time that touches on several techno
 
 The project consists of two major parts: [The client](https://github.com/jerey/weatherstation-client), which measures the current temperature and humidity and publishes the data via `MQTT`. It is based on an `ESP`, and a custom PCB was created for the `D1 mini` to facilitate the connections. The second part is the server, which stores the received values and presents them in a nice way. There are multiple ways to start a server to handle the data: either with a [Node.js-based server](https://github.com/jerey/weatherstation-server), which was specifically created for this project utilizing a SQL database to store the values and starting a web server to present the data in the form of graphs, or with the help of `node-red`, `influxdb`, and `grafana`. Here, a `node-red` flow is started, which automatically stores the published data to an `InfluxDB`, and `Grafana` is used to visualize it.
 
-<img src="/assets/project/WeatherstationNodeJSServer1.png" alt="NodeJS weatherstation server" width="400">
+![](./assets/project/WeatherstationNodeJSServer1.png)
 
-<img src="/assets/project/WeatherstationGrafana.png" alt="Node-RED, InfluxDB and Grafana alternative." width="1000">
+![](./assets/project/WeatherstationGrafana.png)
 
 ::github{repo="Jerey/weatherstation-client"}
 

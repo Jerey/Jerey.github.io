@@ -3,7 +3,7 @@ title: Coffee Grinder Automation
 published: 2020-04-01
 updated: 2025-01-31
 description: 'An automated coffee grinder using a D1-mini and load cell to achieve precise weight-based grinding for consistent coffee quality.'
-image: '/assets/project/CoffeeGrinderProtoType.jpg'
+image: './assets/project/CoffeeGrinderProtoType.jpg'
 tags: [
     C++,
     Coffee,
@@ -22,6 +22,6 @@ A `node-red` flow along with the `node-red`-dashboard is used to control the `D1
 
 On the dashboard, there are several functions: weight-based and time-based grinding, a brew timer, and the taring of the scale. The main challenge with this project was that it takes some time for the ground coffee to reach the scale while grinding. Therefore, stopping the grinder when the weight is reached might already be too late. It was necessary to stop the grinding process a bit earlier and then grind some more until the target weight is reached.
 
-<img src="/assets/project/CoffeeGrinderDashboard.png" alt="Node-RED dashboard" width="800">
+![](./assets/project/CoffeeGrinderDashboard.png)
 
 ::github{repo="Jerey/coffee-automation"}

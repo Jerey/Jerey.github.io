@@ -3,7 +3,7 @@ title: Image to Text
 published: 2019-02-01
 updated: 2025-01-31
 description: 'A Python tool that extracts text from scanned documents, stores it digitally, and organizes them using a numbering system for easy retrieval.'
-image: '/assets/project/img2txt.gif'
+image: './assets/project/img2txt.gif'
 tags: [
     OpenCV,
     Python,
