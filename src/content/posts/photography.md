@@ -27,7 +27,7 @@ Up until then, I had primarily taken photos with my phone. In 2015, I started cr
 
 My friend, an experienced photographer, quickly introduced me to essential photography techniques and settings. He recommended purchasing an additional lens for capturing the Aurora Borealis: the SIGMA EF-M 16mm f/1.4. Its wide aperture would allow more light to enter, making it ideal for low-light photography.
 
-Another lens he suggested was the Canon EF 50mm f/1.8, perfect for portrait photography. Since my M50 has an EF-M mount, I needed an adapter to use this lens. This exposed one of the first drawbacks of my camera: the limited availability and high cost of compatible lenses.
+Another lens he suggested was the budget friendly Canon EF 50mm f/1.8, perfect for portrait photography. Since my M50 has an EF-M mount, I needed an adapter to use this lens. The adapter applies a 1.6x crop factor, effectively converting the 50mm lens into an 80mm equivalent. This exposed one of the first drawbacks of my camera: the limited availability and high cost of compatible lenses.
 
 Another crucial investment was a sturdy tripod. I chose the Rollei Compact Traveller No. 1, ensuring stability for long-exposure shots.
 
