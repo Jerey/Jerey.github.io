@@ -8,10 +8,10 @@ tags: [
     Kiruna,
     Nature,
     Northern Lights,
+    Photography,
     Sweden,
-    Travel,
 ]
-category: 'Photography'
+category: 'Travel'
 draft: false 
 ---
 
