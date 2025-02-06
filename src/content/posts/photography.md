@@ -3,7 +3,7 @@ title: Kiruna and the Northern Lights
 published: 2025-02-05
 # updated: 2025-01-31
 description: 'A trip to Sweden’s Kiruna offered me an unforgettable opportunity to capture the stunning Northern Lights and explore new depths in my photography through the use of professional gear.'
-image: './assets/photography/SecondNorthernLights3.JPEG'
+image: './assets/travel/photography/SecondNorthernLights3.JPEG'
 tags: [
     Kiruna,
     Nature,
@@ -37,23 +37,23 @@ With my camera gear ready, I began testing my lenses and exploring the camera’
 
 December in Kiruna is incredibly cold, so we often found ourselves indoors, waiting for the Northern Lights or preparing food. During these breaks, we experimented with different camera settings, even attempting to take photos through the windows. One amusing moment occurred when I excitedly captured a green light on my camera, only to realize upon closer inspection that it was the reflection of the microwave clock. The long exposure time had allowed the camera to pick up details that were invisible to the naked eye.
 
-![](./assets/photography/Microwave.JPEG)
+![](./assets/travel/photography/Microwave.JPEG)
 
 We ventured into the city and its surroundings. After capturing several shots of the local church, we drove to a remote area with minimal light pollution. At first, we saw what appeared to be an unusual cloud, but upon pointing the camera at it, we discovered that it was actually the Aurora Borealis. While it wasn’t yet visible to the naked eye, seeing it through the camera was thrilling.
 
-![](./assets/photography/Church.JPEG)
+![](./assets/travel/photography/Church.JPEG)
 
-![](./assets/photography/FirstNorthernLights.JPEG)
+![](./assets/travel/photography/FirstNorthernLights.JPEG)
 
 Our next hotel was situated near the river Torne surrounded by a forest — an ideal location for photography but also a gamble, as the northern lights are not guaranteed and there was not much else to do there. Fortunately, luck was on our side. This time, we could see the lights with our bare eyes — not as vividly as through the camera, but still an unforgettable sight.
 
-![](./assets/photography/SecondNorthernLights1.JPEG)
+![](./assets/travel/photography/SecondNorthernLights1.JPEG)
 
-![](./assets/photography/SecondNorthernLights2.JPEG)
+![](./assets/travel/photography/SecondNorthernLights2.JPEG)
 
 Here a photo for comparison taken with my phone:
 
-![](./assets/photography/SecondNorthernLightsPhone.JPEG)
+![](./assets/travel/photography/SecondNorthernLightsPhone.JPEG)
 
 ## Final Thoughts
 
