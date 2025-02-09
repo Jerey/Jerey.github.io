@@ -61,7 +61,7 @@ Here are a few impressions of Stockholm and some of my first photos with my came
 ## Kiruna
 
 After three days in Stockholm, we flew to Kiruna. I definitely recommend a seat at the window, as the landscape is spectacular.
-We had a rental car in Kiruna, which introduced first time: Driving a car with spikes.
+We had a rental car in Kiruna, which introduced a first time: Driving a car with spikes.
 Similar to Stockholm, we immediately started walking around the city, grabbed a Souvas Rulle (similar to the Tunnbrödsrulle, but with reindeer meat instead of the sausage) and spent some time in the apartment waiting for the Northern Lights.
 
 ![](./assets/travel/kiruna-stockholm-oslo/KirunaAtDay.JPEG)
@@ -72,7 +72,7 @@ As I wrote in the last post, we checked out the local church, walked around the 
 
 ![](./assets/travel/kiruna-stockholm-oslo/KirunaFirstAurora.JPEG)
 
-We also took part in a Aurora expedition with dinner - a snowmobile, Northern Lights and dinner tour. Sadly we did not see the Northern Lights that day, but the landscape and food were great.
+We also took part in an Aurora expedition with dinner - a snowmobile, Northern Lights and dinner tour. Sadly we did not see the Northern Lights that day, but the landscape and food were great.
 Another day, we drove to the Esrange Space Center. It was a long car drive, but it was worth it. We stopped on several occasions for photography and even saw a Moose and a Reindeer in the wild. The space station visitor center was interesting, but the best part about going there was definitely the landscape and the almost untouched nature.
 
 ![](./assets/travel/kiruna-stockholm-oslo/KirunaSpaceStation1.JPEG)
@@ -95,4 +95,4 @@ To finish our Scandinavian trip - sorry Finland - we went to Oslo in Norway. We 
 
 ## Final Thoughts
 
-The entire trip was a great experience. The Northern Lights were definitely the highlight of this journey. Kiruna is an awesome city and I definitely want to go there again. I have been to Stockholm often, so it is kind of "known" but as always a great experience. And Oslo has been great. It was nice to see the city for a second time, but due to the Corona pandemic rising again, many activities were not possible and we were also already exhausted from the past days walking and taking pictures.
+The entire trip was a great experience. The Northern Lights were definitely the highlight of this journey. Kiruna is an awesome city and I definitely want to go there again. I have been to Stockholm often, so it is kind of "known" but as always a great experience. And Oslo has been awesom. It was nice to see the city for a second time, but due to the Corona pandemic rising again, many activities were not possible and we were also already exhausted from the past days walking and taking pictures.
