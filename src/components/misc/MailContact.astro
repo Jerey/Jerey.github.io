@@ -1,0 +1,27 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Props {
+  class: string;
+  title: string;
+}
+
+const { class: className, title } = Astro.props;
+const mailToUrl = `mailto:blog@jerey.at?subject=${encodeURIComponent(Astro.url.toString())}`;
+---
+
+<div
+  class={`relative transition overflow-hidden bg-[var(--license-block-bg)] py-5 px-6 ${className}`}
+>
+  <p class="text-lg text-black/70 dark:text-white/70 mt-2">
+    Enjoyed the post? Have questions or feedback? I'd love to hear from you!
+    Feel free to drop me an email at
+    <a href={mailToUrl} class="link text-[var(--primary)] underline"
+      >blog@jerey.at</a
+    >.
+  </p>
+  <Icon
+    name="fa6-solid:envelope"
+    class="transition text-[15rem] absolute pointer-events-none right-6 top-1/2 -translate-y-1/2 text-black/5 dark:text-white/5"
+  />
+</div>
